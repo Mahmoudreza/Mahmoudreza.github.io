@@ -1,61 +1,131 @@
-primary_name: "Your Name"
-secondary_name: ""
-navbar_name: "Your Name"
+primary_name: "Mahmoudreza (Reza) Babaei"
+secondary_name: "محمودرضا بابایی"
+navbar_name: "Reza Babaei"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: Professor of Artificial Intelligence, GISMA University of Applied Sciences
+- name: Research Director, BRAINS (Brandenburg Research Center for Applied Intelligent Systems)
+- name: Visiting Researcher, Max Planck Institute for Security and Privacy (Sep.–Dec. 2026)
 
-
-email: "your@email.com"
-# cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
-# wechat_qrcode: /assets/images/etc/wechat.jpg
-# wechat_prompt: >-
-#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
+email: "mahmoudreza.babaei@gisma.com"
+gscholar: QKq6OXAAAAAJ
+github: Mahmoudreza
+linkedin: reza-babaei-845ab388
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am Professor of Artificial Intelligence at
+    <a href="https://www.gisma.com/faculty-and-team/prof-dr-mahmoudreza-babaei" target="_blank">GISMA University of Applied Sciences</a>
+    in Berlin and Potsdam. I direct BRAINS, the Brandenburg Research Center for Applied Intelligent Systems,
+    and lead the Data Science, AI &amp; Digital Business programme. From September to December 2026 I am a
+    visiting researcher at the
+    <a href="https://www.mpi-sp.org" target="_blank">Max Planck Institute for Security and Privacy</a>
+    in Bochum, working with Prof. Meeyoung Cha.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    I study how algorithms shape what people see and decide online, and how to make those systems fairer.
+    It started with news. During my PhD at the
+    <a href="https://www.mpi-sws.org" target="_blank">Max Planck Institute for Software Systems</a>
+    with Prof. Krishna P. Gummadi, I measured how efficiently people choose their information sources on Twitter,
+    how well they can tell true stories from false ones, and which posts readers on both sides of politics can agree on.
+  </p>
+  <p>
+    That work led me to fairness on social networks. If you seed a campaign with a few well-connected people,
+    standard influence maximization reaches the majority group first and leaves smaller groups behind.
+    With my collaborators I build methods that make fair reach part of the objective itself, first with greedy
+    algorithms and now with graph neural networks and deep reinforcement learning.
+  </p>
+  <p>
+    Lately I have been asking how people and machines cooperate. As a postdoc with Prof. Iyad Rahwan at the
+    Center for Humans &amp; Machines, I ran online experiments where humans and bots play social dilemmas on
+    networks that rewire as the game goes on. My group now puts LLM agents into the same games to see when they
+    cooperate and who they choose to link to. We also test whether LLMs used for fact-checking treat political
+    claims evenly.
+  </p>
+  <p>
+    Students looking for a thesis project and researchers interested in working together are always welcome to get in touch.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+portrait_url: /assets/images/photos/reza.jpg
+
+experience:
+- name: GISMA University of Applied Sciences, Berlin/Potsdam
+  abbr: GISMA
+  color: "#1f2a44"
+  position: >-
+    Professor of Artificial Intelligence<br/>
+    Research Director, BRAINS Research Center<br/>
+    Programme Director, Data Science, AI &amp; Digital Business
+  date: 2022 – Present
+
+- name: Max Planck Institute for Security and Privacy, Bochum
+  abbr: MPI-SP
+  color: "#006c66"
+  position: "Visiting Researcher (host: Prof. Meeyoung Cha)"
+  date: Sep. 2026 – Dec. 2026
+
+- name: Max Planck Institute for Human Development, Berlin
+  abbr: MPIB
+  color: "#006c66"
+  position: Postdoctoral Researcher, Center for Humans &amp; Machines (with Prof. Iyad Rahwan)
+  date: 2021 – 2023
+
+- name: University of California, Los Angeles (UCLA)
+  abbr: UCLA
+  color: "#2774ae"
+  position: Postdoctoral Researcher, Department of Communication
+  date: 2020 – 2021
+
+- name: Max Planck Institute for Software Systems, Saarbrücken
+  abbr: MPI-SWS
+  color: "#006c66"
+  position: Doctoral Researcher (with Prof. Krishna P. Gummadi)
+  date: 2014 – 2020
+
+- name: RMIT University, Melbourne
+  abbr: RMIT
+  color: "#e60028"
+  position: Research Visitor
+  date: Sep. 2019 – Dec. 2019
+
+- name: University of Cambridge, Department of Engineering
+  abbr: CAM
+  color: "#5b8e7d"
+  position: Research Visitor (with Prof. Adrian Weller)
+  date: Jun. 2019 – Aug. 2019
+
+- name: KAIST, Daejeon
+  abbr: KAIST
+  color: "#004191"
+  position: Research Visitor (with Prof. Meeyoung Cha)
+  date: Jun. 2014 – Dec. 2014
+
+- name: Iranian Embedded Systems (IES)
+  abbr: IES
+  color: "#6c757d"
+  position: CTO and Data Scientist
+  date: 2010 – 2014
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+- name: Max Planck Institute for Software Systems, Saarbrücken
+  abbr: MPI-SWS
+  color: "#006c66"
+  degree: >-
+    Ph.D. in Computer Science. Advisor: Prof. Krishna P. Gummadi<br/>
+    <i>Thesis: Information Consumption on Social Media: Efficiency, Trust, and Divisiveness</i>
+  date: 2014 – 2020
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+- name: Sharif University of Technology, Tehran
+  abbr: SUT
+  color: "#1b4f8a"
+  degree: >-
+    M.Sc. in Computer Engineering<br/>
+    <i>Thesis: Spreading Information and Behaviors in Social Networks</i>
+  date: 2008 – 2011
 
-awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: University of Tehran
+  abbr: UT
+  color: "#2d4a73"
+  degree: B.Sc. in Computer Engineering (Software)
+  date: 2004 – 2008

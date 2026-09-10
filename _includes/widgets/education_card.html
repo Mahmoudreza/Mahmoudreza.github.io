@@ -1,0 +1,25 @@
+<div id="education" class="row mt-3">
+  <div class="col-12">
+    <div class="card border-0 shadow-sm bg-white">
+      <div class="card-body p-4">
+        {% if site.data.profile.education %}
+          <h6>Education</h6>
+          <ul class="list-unstyled mb-0">
+            {% for item in site.data.profile.education %}
+              <li class="media mb-3">
+                <div class="org-badge mr-3 mt-1" style="background-color: {{ item.color | default: '#495057' }};">{{ item.abbr }}</div>
+                <div class="media-body">
+                  <div class="d-flex justify-content-between align-items-start">
+                    <div class="font-weight-bold">{{ item.name }}</div>
+                    {% if item.date %}<div class="org-date">{{ item.date }}</div>{% endif %}
+                  </div>
+                  {% if item.degree %}<div class="position-text">{{ item.degree }}</div>{% endif %}
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
