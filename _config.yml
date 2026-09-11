@@ -21,8 +21,10 @@ exclude:
   - index_layout2.html
   - _posts
   - _showcase
-  - _publications/2023
-  - _publications/2024
+  - _publications/2023/2023-pub-example-1.md
+  - _publications/2023/2023-pub-example-2.md
+  - _publications/2023/2023-pub-example-no-cover.md
+  - _publications/2024/2024-pub-example-3.md
   - _news/2022-lorem.md
   - _news/2023-news1.md
   - _news/2023-news2.md
