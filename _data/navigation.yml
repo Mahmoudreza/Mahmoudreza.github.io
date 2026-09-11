@@ -1,6 +1,8 @@
 pages:
 - name: Home
   url: /
+- name: BRAINS
+  url: /#brains
 - name: Experience
   url: /#experience
 - name: Education
